@@ -4,7 +4,7 @@ const {
   min,
   max,
   avg,
-} = require('./src')
+} = require('./src/index.js')
 
 describe('.min, should find min value in given array', () => {
  it('Should return 0 if no params passed, or array is empty', () => {
